@@ -1,0 +1,1 @@
+$(".home-slider").slick({arrows:!1,dots:!0,autoplay:!0,autoplaySpeed:7e3});
