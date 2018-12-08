@@ -60,7 +60,7 @@
     border: 1px solid $blue;
     &:hover {
         color: #fff;
-        border: 1px solid #fff;
+        background-color: $blue;
         transition: .6s;
     }
 }
@@ -105,7 +105,7 @@
     }
 
     .home-slider {
-        max-height: 100%;
+        max-height: 60%;
     }
 
     .home-title {

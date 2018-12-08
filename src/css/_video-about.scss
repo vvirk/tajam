@@ -1,0 +1,37 @@
+.video-about-container {
+    width: 100%;
+    background: url(../images/video-about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.8px;
+}
+
+.video-about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 200px 0;
+}
+
+.video-about-link {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 34px;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background: url(../images/play-icon.png) no-repeat;
+    background-position: 60% 50%;
+    &:hover {
+        background-color: $blue;
+        transform: rotate(360deg);
+        transition: .5s;
+    }
+    &:active {
+        background-color: $blue;
+    } 
+}
