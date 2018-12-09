@@ -1,4 +1,4 @@
-.about-container {
+.about {
     width: 100%;
     color: $black;
     font-family: 'Roboto', sans-serif;
@@ -8,7 +8,7 @@
     letter-spacing: 0.42px;
 }
 
-.about {
+.about-inner {
     width: 100%;
     max-width: 980px;
     padding: 67px 20px 79px 20px;
@@ -53,7 +53,7 @@
 }
 
 @media (max-width: 895px) {
-    .about,
+    .about-inner,
     .about-logo {
         justify-content: center;
     }

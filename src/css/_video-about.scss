@@ -1,4 +1,4 @@
-.video-about-container {
+.video-about {
     width: 100%;
     background: url(../images/video-about-bg.jpg);
     background-repeat: no-repeat;
@@ -11,7 +11,7 @@
     letter-spacing: 0.8px;
 }
 
-.video-about {
+.video-about-inner {
     display: flex;
     flex-direction: column;
     align-items: center;

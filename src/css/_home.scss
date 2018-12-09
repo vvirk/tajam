@@ -1,4 +1,4 @@
-.home-container {
+.home {
     width: 100%;
     background: url(../images/home-bg.jpg);
     background-repeat: no-repeat;
@@ -8,7 +8,7 @@
     color: #fff;
 }
 
-.home {
+.home-inner {
     width: 100%;
     max-width: 980px;
     margin: 0 auto;
@@ -96,11 +96,11 @@
 }
 
 @media (max-width: 585px) {
-    .home-container {
+    .home {
         font-size: 12px;
     }
 
-    .home {
+    .home-inner {
         padding: 55px 20px;
     }
 
