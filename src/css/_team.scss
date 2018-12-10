@@ -1,0 +1,86 @@
+.team {
+    width: 100%;
+    background: url(../images/team-bg.jpg) no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 0.7px;
+}
+
+.team-inner {
+    width: 100%;
+    max-width: 980px;
+    padding: 72px 20px 80px 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.team-title,
+.team-subtitle {
+    color: #fff;
+}
+
+.team-inner .subtitle::after {
+    background: #fff;
+}
+
+.team-content {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-bottom: 69px;
+}
+
+.team-member {
+    width: 100%;
+    max-width: 220px;
+    &:hover {
+        transform: rotateY(360deg);
+        transition: 1s;
+    }
+}
+
+.team-member-photo {
+    max-width: 220px;
+    max-height: 229px;
+}
+
+.team-member-description {
+    padding: 20px 0;
+    text-align: center;
+    border: 1px solid #e1e1e1;
+    opacity: 0.5; 
+}
+
+.team-member-name {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding-bottom: 10px;
+}
+
+.team-member-position {
+    color: #fafafa;
+    opacity: .7;
+    font-size: 13px;
+    text-transform: uppercase;
+}
+
+.team-ofer {
+    margin-bottom: 40px;
+}
+@media (max-width: 940px) {
+    .team-content {
+        max-width: 650px;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+
+    .team-member {
+        margin: 10px;
+    }
+}
