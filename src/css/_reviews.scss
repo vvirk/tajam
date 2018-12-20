@@ -1,0 +1,81 @@
+.reviews {
+    width: 100%;
+    background: url(../images/reviews-bg.jpg) no-repeat;
+    background-size: cover;
+}
+
+.reviews-inner {
+    width: 100%;
+    max-width: 815px;
+    padding: 70px 20px 80px 20px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.reviews-sl {
+    max-height: 256px;
+}
+
+.reviews-sl-slide-title,
+.reviews-sl-slide-description {
+    color: #fff;
+    font-family: 'Playfair Display', serif;
+}
+
+.reviews-sl-slide-title {
+    font-size: 100px;
+    line-height: 22px;
+    letter-spacing: 3px;
+    margin: 20px 0;
+}
+
+.reviews-sl-slide-description {
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.4px;
+    margin-bottom: 43px;
+}
+
+.reviews-sl-slide-people-name,
+.reviews-sl-slide-people-position {
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 22px;
+    text-transform: uppercase;
+    letter-spacing: 0.7px;
+}
+
+.reviews-sl-slide-people-name {
+    font-weight: 900;
+    font-size: 14px;
+    margin-bottom: 3px;
+}
+
+.reviews-sl-min {
+    width: 100%;
+    max-width: 302px;
+    margin: 48px auto 0 auto;
+    max-height: 45px;
+}
+
+.reviews-sl-min-slide img {
+    max-width: 45px;
+    border-radius: 50%;
+}
+.reviews-sl-min-slide .slick-slider {
+    overflow: hidden;
+}
+
+.reviews-sl-min-slide .slick-list {
+    margin: 0 -9px;
+}
+
+.reviews-sl-min-slide {
+    padding: 0 9px;
+}
+
+.reviews-sl-min .slick-slide.slick-current.slick-active {
+    transform: scale(1.1);
+}

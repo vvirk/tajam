@@ -8,6 +8,9 @@
 @import 'video-about';
 @import 'expertise';
 @import 'team';
+@import 'portfolio';
+@import 'reviews';
+@import 'contacts';
 @import 'footer';
 @import 'up-btn';
 
@@ -28,4 +31,9 @@ a {
 
 .main {
     flex: 1 0 auto;
+}
+
+.scroll-hidden {
+    overflow: hidden;
+    height: 100%;
 }
