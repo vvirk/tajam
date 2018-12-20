@@ -54,6 +54,8 @@
     
     .header-inner {
         align-items: center;
+        position: relative;
+        z-index: 999;
     }
     //mobile menu
 
@@ -79,7 +81,9 @@
     .header-mobile-menu{
         position: fixed;
 		width: 100%;
-        height: calc(100vh - 80px);
+        height: 100vh;
+        top: 0;
+        padding-top: 80px;
         background: url(../images/home-bg.jpg) no-repeat;
         background-size: cover;
         z-index: 99;
