@@ -1,2 +1,2 @@
 # Link to Tajam page
-* [Tajam](https://boxing199.github.io/tajam/dist/index.html)
+* [Tajam](https://vvirk.github.io/tajam/dist/index.html)
